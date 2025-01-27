@@ -26,7 +26,7 @@
                                     <label class="form-label">Mata Pelajaran</label>
                                     <div class="controls">
                                         <input type="text" class="form-control" name="nama"
-                                            value="{{ $mapel->kode }}">
+                                            value="{{ $mapel->nama }}">
                                         @error('nama')
                                             <p class="text-danger">{{ $message }}</p>
                                         @enderror
